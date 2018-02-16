@@ -7,10 +7,16 @@ Riffs-n-Genre enables Architecture-as-Code for Microservices DevOps Pipelines th
 - Streams which transport artifacts to various DevOps Pipeline repositories
 
 ## How does it work (Functional View)?
-- Riffs are defined using in JSON. The ADSL is defined using JSON Schema.
+- Riffs are defined using JSON. The ADSL is defined using JSON Schema.
 - Genres are defined using [mustache template syntax](https://mustache.github.io/mustache.5.html)
 - Strings is a nodejs program that choreographs artifact generation using [mustache.js](https://github.com/janl/mustache.js/) and git repo interaction using [nodegit](https://github.com/nodegit/nodegit)
 - Streams is a python program that orchestrates AWS Code Pipeline interaciton using [AWS CLI](https://github.com/aws/aws-cli)
+
+# How is the code organized (Development View)?
+*still work in progress...*
+
+# How is the code built (Build View)?
+*still work in progres...*
 
 ## How to install (Deployment View)?
 *still work in progress...*
