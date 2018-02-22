@@ -4,13 +4,13 @@ Riffs-n-Genre enables Architecture-as-Code and Continuous Architecture Integrati
 - `Riffs` are Architecture Building Blocks that are coded using an Architecture-Domain-Specific Language (ADSL)
 - `Genres` are templates for Architecture artifacts (e.g. UML diagramms, decisions, interface contracts) 
 - `Jams` generate artifacts by merging Riffs and Genres
-- `Ensembles` are DevOps Pipelines that continuously validate the integration of Architecture Building Blocks of a solution 
+- `Ensembles` are Continuous Integration Pipelines that validate the cohesion of Architecture Building Blocks of a solution 
 
 ## How does it work (Functional View)?
 - `Riffs` are defined using JSON. The ADSL is defined using JSON Schema.
 - `Genres` are defined using [mustache template syntax](https://mustache.github.io/mustache.5.html)
 - `Jams` is a nodejs program that choreographs artifact generation using [mustache.js](https://github.com/janl/mustache.js/) and git repo interaction using [nodegit](https://github.com/nodegit/nodegit)
-- `Ensembles` is a python program that orchestrates AWS Code Pipeline interaciton using [AWS CLI](https://github.com/aws/aws-cli)
+- `Ensembles` is a python program that orchestrates AWS Code Pipeline interaction using [AWS CLI](https://github.com/aws/aws-cli)
 
 # How is the code organized (Development View)?
 *still work in progress...*
